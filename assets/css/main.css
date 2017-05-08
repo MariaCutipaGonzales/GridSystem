@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Cabin', sans-serif;
+}
+h1{
+	font-size: 3rem;
+	padding-left: 15px;
+	padding-bottom: 10px;
+	background-color: #2d3138;
+}
+.nav{
+	width:100%;
+	overflow:hidden;
+}
+.nv-silver{
+	color:#fff;
+	background-color:#193c75;
+}
+.link-item{
+	padding:8px 16px;
+	float:left;
+	width:auto;
+	border:none;
+	outline:none;
+	display:block;
+}
+.link-button{
+	border:none;
+	display:inline-block;
+	outline:0;
+	padding:8px 16px;
+	vertical-align:middle;
+	overflow:hidden;
+	text-decoration:none;
+	color:inherit;
+	background-color:inherit;
+	text-align:center;
+	cursor:pointer;
+	white-space:nowrap
+}
+.link-button:hover{
+	color:#000;
+	background-color:#ccc;
+}
+.container{
+	width: 100%;
+	max-width: 1200px;
+	margin: 0px auto;
+	overflow: auto;
+}
+.row:before,
+.row:after{
+	content: " ";
+	display: table;
+}
+.row:after{
+	clear: both;
+}
+[class="ej-"]{
+	min-height: 7px;
+	padding: 12px;
+}
+.ej-1-4{
+	width: 33.333333%;
+	height: 400px;
+	background-color: silver;
+	float: left;
+	border: 10px solid #ffffff;
+}
+.ej-3-4{
+	width: 33.333333%;
+	height: 600px;
+	background-color: silver;
+	float: left;
+	border: 10px solid #ffffff;
+}
+.ej-3-12{
+	width: 100%;
+	height: 400px;
+	background-color: #3e3f40;
+	border: 10px solid #ffffff;
+}
+.ej-2-4{
+	width: 33.333333%;
+	height: 400px;
+	background-color: silver;
+	float: left;
+	border: 10px solid #ffffff;
+}
+.ej-2-12{
+	width: 100%;
+	height: 400px;
+	background-color: #3e3f40;
+	border: 10px solid #ffffff;
+}
